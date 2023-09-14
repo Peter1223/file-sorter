@@ -2,23 +2,14 @@ from pathlib import Path
 import shutil
 
 # Specify the source directory (where files are initially located)
-source_dir = Path(r'C:\Users\osipc\Downloads')
+source_dir = Path("Add Path to file you want to sort files in)
 
 # Define destination directories for specific file types
 destination_dirs = {
-    ".exe": Path(r'C:\Users\osipc\Downloads\Executables'),
-    ".img": Path(r'C:\Users\osipc\Downloads\Images'),
-    ".mp4": Path(r'C:\Users\osipc\Downloads\Videos'),
-    ".docx": Path(r'C:\Users\osipc\Downloads\Docs'),
-    ".doc": Path(r'C:\Users\osipc\Downloads\Docs'),
-    ".pdf": Path(r'C:\Users\osipc\Downloads\Docs'),
-    ".zip": Path(r'C:\Users\osipc\Downloads\Zip'),
-    ".png": Path(r'C:\Users\osipc\Downloads\Images'),
-    ".jpg": Path(r'C:\Users\osipc\Downloads\Images'),
-    ".xlsm": Path(r'C:\Users\osipc\Downloads\excel'),
-    ".csv": Path(r'C:\Users\osipc\Downloads\excel'),
-    ".xlsx": Path(r'C:\Users\osipc\Downloads\excel'),
-    ".py": Path(r'C:\Users\osipc\Downloads\Python')
+    ".exe": Path(Put in Path to the folder where you want the specific file type to go to),
+    ".img": Path(etc.),
+    ".mp4": Path(etc.),
+    ".docx": Path(etc.)
 }
 
 # Iterate through each file inside the source directory
